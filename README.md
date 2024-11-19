@@ -1,137 +1,59 @@
-PROYECTO INDIVIDUAL Nº2: "CONECTANDO ARGENTINA: ANÁLISIS DEL ACCESO Y EXPANSIÓN A INTERNET"
-📌 Introducción
-Este proyecto aborda un análisis profundo del acceso y crecimiento de los servicios de telecomunicaciones en Argentina, con especial énfasis en el servicio de internet. Como analista de datos, he desarrollado un EDA que permite comprender las tendencias y el estado actual del sector, y además, he implementado KPIs clave para evaluar la performance del mercado y sugerir estrategias de mejora.
+Para incluir íconos y emojis en tu README.md de GitHub y darle un toque visual, puedes usar emojis de manera simple y efectiva. Aquí tienes un ejemplo mejorado del README.md que incluye íconos para cada sección:
 
-🌐 Contexto
-El acceso a internet se ha convertido en un pilar esencial para el desarrollo de las sociedades modernas. En Argentina, las telecomunicaciones han crecido considerablemente, con un registro de 62,12 millones de conexiones en 2020. Sin embargo, comprender y mejorar el acceso en diferentes regiones sigue siendo un desafío, particularmente en la expansión y optimización de servicios.
+---
 
-🎯 Objetivo del Proyecto
-El proyecto busca analizar datos relacionados con el acceso a internet y otros servicios de telecomunicaciones en Argentina, centrándose en el desarrollo y cumplimiento de indicadores clave de rendimiento (KPIs) que reflejen el crecimiento y las oportunidades de mejora.
+# 📡 PROYECTO INDIVIDUAL Nº2: CONECTANDO ARGENTINA
 
-📂 EDA (Análisis Exploratorio de Datos)
-El análisis exploratorio se inició cargando los datos desde el archivo internet.xlsx, el cual contenía 15 hojas con información relevante. Estas hojas se transformaron en archivos CSV para una mejor manipulación y estandarización. El EDA incluyó:
+**"Análisis del Acceso y Expansión a Internet"**
 
-Proceso de Análisis:
-Revisión de los datos: Exploración y evaluación de la calidad de los datos.
-Limpieza: Eliminación de valores nulos, duplicados y outliers.
-Visualización: Uso de gráficos de barras, histogramas y boxplots para entender la distribución de los datos.
-Análisis de correlación: Matriz de correlación para identificar relaciones significativas entre variables.
-Ajuste por inflación: Se ajustaron los ingresos a la inflación de 2014 a 2023 para un análisis más realista.
-Los archivos trabajados incluyeron:
+## 🌟 Introducción
+Bienvenido a mi proyecto de análisis de datos enfocado en el sector de las telecomunicaciones en Argentina. Este proyecto se centra en explorar y evaluar datos clave sobre el acceso a internet, con el objetivo de ofrecer recomendaciones estratégicas.
 
-Penetración-hogares.csv
-Accesos Por Tecnología.csv
-Penetración-poblacion.csv
-Totales Acceso Por Tecnología.csv
-Ingresos.csv
-📊 KPIs Implementados
-1. Aumento del Acceso a Internet
-Objetivo: Incrementar el acceso a internet en un 2% por cada 100 hogares en cada provincia en el próximo trimestre.
-Fórmula:
-Tasa de Crecimiento de Acceso
-=
-(
-Nuevo acceso
-−
-Acceso actual
-Acceso actual
-)
-×
-100
-Tasa de Crecimiento de Acceso=( 
-Acceso actual
-Nuevo acceso−Acceso actual
-​
- )×100
-2. Crecimiento de Accesos por Tecnología de Conexión
-Objetivo: Medir el crecimiento por tecnología con una meta del 5% en el próximo trimestre.
-Fórmula:
-Crecimiento por Tecnolog
-ı
-ˊ
-a
-=
-(
-Accesos nuevos
-−
-Accesos actuales
-Accesos actuales
-)
-×
-100
-Crecimiento por Tecnolog 
-ı
-ˊ
- a=( 
-Accesos actuales
-Accesos nuevos−Accesos actuales
-​
- )×100
-3. Penetración del Servicio de Internet por Población
-Objetivo: Incrementar en un 3% la penetración del servicio.
-Fórmula:
-I
-ˊ
-ndice de Penetraci
-o
-ˊ
-n
-=
-(
-Accesos por 100 hogares
-Poblaci
-o
-ˊ
-n total
-)
-×
-100
-I
-ˊ
- ndice de Penetraci 
-o
-ˊ
- n=( 
-Poblaci 
-o
-ˊ
- n total
-Accesos por 100 hogares
-​
- )×100
-4. Variación de Ingresos por Servicios de Internet
-Objetivo: Lograr un aumento del 4% en ingresos correlacionado con el aumento de accesos.
-Fórmula:
-Variaci
-o
-ˊ
-n de Ingresos
-=
-(
-Ingresos nuevos
-−
-Ingresos actuales
-Ingresos actuales
-)
-×
-100
-Variaci 
-o
-ˊ
- n de Ingresos=( 
-Ingresos actuales
-Ingresos nuevos−Ingresos actuales
-​
- )×100
-🛠️ Herramientas Utilizadas
-Visual Studio Code: Para el manejo de código y documentación.
-Python: Para el análisis de datos.
-Power BI: Para la creación de un dashboard interactivo que representa los KPIs.
-📈 Dashboard en Power BI
-El dashboard visualiza de forma interactiva los KPIs definidos y muestra las tendencias por provincia y trimestre, facilitando la toma de decisiones basada en datos.
+## 🌍 Contexto
+El internet ha revolucionado la comunicación y el trabajo, siendo esencial para el desarrollo social y económico. Argentina, con 62,12 millones de conexiones en 2020, es un líder regional en telecomunicaciones.
 
-📝 Conclusiones
-El análisis demostró variaciones significativas en la penetración y acceso a internet, revelando áreas críticas para el desarrollo y mejoras. Las recomendaciones basadas en los KPIs ofrecen una guía estratégica para la expansión de los servicios.
+## 🧑‍💻 Rol y Objetivo del Proyecto
+Como analista de datos, fui encargado de realizar un análisis exhaustivo del acceso a internet y otros servicios de telecomunicaciones en Argentina para identificar oportunidades de crecimiento y áreas de mejora.
 
-🔗 Enlaces de Interés
-Repositorio del Proyecto
+## 🔍 Análisis Exploratorio de Datos (EDA)
+Para comenzar, cargué los datos del archivo `internet.xlsx` y transformé las 15 hojas de datos en archivos CSV. 
+
+### Pasos del EDA:
+- **🔄 Carga y limpieza de datos**: Eliminé valores nulos y duplicados.
+- **📊 Visualización de datos**: Utilicé gráficos para observar patrones.
+- **📈 Análisis de correlación**: Identifiqué relaciones entre accesos a internet, ubicación e ingresos.
+
+## 📈 KPIs Implementados
+### 1. 🚀 **Aumento del Acceso a Internet**
+- **Objetivo**: Incremento del 2% en el acceso por cada 100 hogares.
+- **Fórmula**: `(Nuevo acceso - Acceso actual) / Acceso actual * 100`
+
+### 2. 🌐 **Crecimiento de Accesos por Tecnología**
+- **Objetivo**: Crecimiento del 5% en accesos por tipo de tecnología.
+- **Fórmula**: `(Accesos nuevos - Accesos actuales) / Accesos actuales * 100`
+
+### 3. 📶 **Penetración del Servicio de Internet**
+- **Objetivo**: Incrementar un 3% en la penetración por cada 100 hogares.
+- **Fórmula**: `(Accesos por 100 hogares / Población total) * 100`
+
+### 4. 💰 **Variación de Ingresos**
+- **Objetivo**: Aumentar un 4% en los ingresos.
+- **Fórmula**: `(Ingresos nuevos - Ingresos actuales) / Ingresos actuales * 100`
+
+## ⚙️ Herramientas Utilizadas
+- **🐍 Python**: Para análisis y cálculos.
+- **📊 Power BI**: Para la visualización del dashboard.
+- **💻 Visual Studio Code**: Gestión de proyecto y control de versiones.
+
+## 📊 Dashboard en Power BI
+Creé un dashboard en Power BI para representar de manera clara los KPIs y permitir la interacción con los datos, mostrando tendencias por provincia y trimestre.
+
+## ✍️ Conclusiones
+El análisis proporciona insights valiosos sobre el estado de las telecomunicaciones en Argentina y ayuda a formular recomendaciones estratégicas para mejorar la conectividad.
+
+## 🔗 Enlaces de Interés
+- [Repositorio del Proyecto](https://github.com/claujara1975/Proyecto_ConectandoArgentina)
+
+---
+
+Puedes ajustar y probar cómo se ve esto en GitHub. Si necesitas más emojis o ilustraciones adicionales, házmelo saber.
