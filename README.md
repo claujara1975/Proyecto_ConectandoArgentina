@@ -1,7 +1,3 @@
-Para incluir íconos y emojis en tu README.md de GitHub y darle un toque visual, puedes usar emojis de manera simple y efectiva. Aquí tienes un ejemplo mejorado del README.md que incluye íconos para cada sección:
-
----
-
 # 📡 PROYECTO INDIVIDUAL Nº2: CONECTANDO ARGENTINA
 
 **"Análisis del Acceso y Expansión a Internet"**
@@ -54,6 +50,3 @@ El análisis proporciona insights valiosos sobre el estado de las telecomunicaci
 ## 🔗 Enlaces de Interés
 - [Repositorio del Proyecto](https://github.com/claujara1975/Proyecto_ConectandoArgentina)
 
----
-
-Puedes ajustar y probar cómo se ve esto en GitHub. Si necesitas más emojis o ilustraciones adicionales, házmelo saber.
